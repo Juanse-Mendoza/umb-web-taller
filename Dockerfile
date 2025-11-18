@@ -6,5 +6,3 @@ COPY api/ /var/www/html/
 
 # Activar mod_rewrite
 RUN a2enmod rewrite
-
-EXPOSE 80
